@@ -1,0 +1,727 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.welcome{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #1F1F1F;
+  color: white;
+  height: 20px;
+  padding: 5px;
+  width: 100%;
+}
+.call{
+  margin: 2px;
+}
+.wel{
+  background-color: white;
+  padding: 1px;
+}
+.navbar{
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  height: 50px;
+}
+.nav{
+margin: 20px;
+}
+.img{
+  padding: 5px;
+ 
+}
+.image{
+  float: right;
+  padding: 10px;
+  margin-right: 20px;
+}
+.logo{
+  display: inline-block;
+  height: 20px;
+  width: 80px;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 31rem;
+}
+.banner{
+  margin-top: 60px;
+  height: 300px;
+  width: 100%;
+}
+.categories{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.cat1 img{
+  padding: 12px;
+
+}
+#mens,#women,#hooded,#polo,#full{
+  
+  text-align: center;
+}
+.baggy, .womens{
+display: flex;
+align-items: center;
+justify-self: center;
+
+}
+
+#baggy-1{
+  margin-right: 10px;
+  margin-left: 6rem;
+}
+.womens{
+  margin: 10px;
+  margin-left: 6rem;
+  margin-top: 2px;
+}
+#best{
+  margin: 15px;
+}
+h2 {
+  width: 100%; 
+  text-align: center; 
+  border-bottom: 1px solid #000; 
+  line-height: 0.1em;
+  margin: 10px 0 20px; 
+  
+} 
+
+h2 span { 
+   background:#fff; 
+   padding:0 10px; 
+}
+.horizontal{
+  margin: 2rem 6rem;
+  margin-right: 7.2rem;
+  
+}
+
+.card-items{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.para1{
+  margin-left: 4rem;
+}
+.para2{
+  margin-left: 3rem;
+}
+.discount{
+  margin-left: 5rem;
+  font-weight: bold;
+}
+.price{
+  color:#ff0000 ;
+  font-size: 10px;
+  margin: 5px;
+}
+#small{
+  margin-left: 2rem;
+}
+.btn{
+  margin: 8px;
+  padding: 5px;
+  background: transparent;
+  border: 0.1px solid rgb(206, 198, 198);
+  
+}
+#card1{
+  margin-left: 0.1px;
+}
+.cards{
+  margin: 5px;
+  padding: 5px;
+}
+
+.back-img{
+position: relative;
+}
+
+.content{
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+position: absolute;
+background: rgba(0,0,0,0.6);
+display: flex;
+align-items: center;
+justify-content: center;
+transition: 0.5s;
+opacity: 0;
+}
+.content:hover{
+  opacity: 1;
+  
+}
+.h1{
+  background-color: white;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 5px;
+}
+.view{
+  display: block;
+  margin: auto;
+  background-color: #770015;
+  padding: 5px 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+.banner-1{
+  margin: 20px 0;
+}
+.collections{
+  display: flex;
+}
+
+.cards-1{
+  background-color: rgb(3, 71, 3);
+  margin-left: 6rem;
+  height: 300px;
+  position: relative;
+  margin-top: 5px;
+}
+.cards-1,.first{
+  width: 400px;
+  
+}
+.cards-2{
+  background-color: rgb(13, 215, 238);
+  height: 300px;
+  margin: 0px 6rem;
+  position: relative;
+  margin-top: 10px;
+}
+.cards-3{
+  background-color: rgb(226, 94, 6);
+  height: 300px;
+  width: 300px;
+  position: relative;
+  margin-top: 5px;
+}
+
+#streetwear,#striped,#round-neck{
+  height: 300px;
+}
+#striped{
+  width: 300px;
+  height: 300px; 
+  position: relative; 
+}
+.context{
+  position: absolute;
+  bottom: 0;
+  margin-left: 5rem;
+  text-align: center;
+  color: white;
+  backdrop-filter: blur(20rem);
+  padding: 10px;
+  font-weight: lighter;
+  
+}
+
+.first{
+  background-color: rgb(166, 88, 240);
+}
+.second{
+  background-color: burlywood;
+}
+.third{
+  background-color: rgb(100, 100, 248);
+}
+.loose{
+  margin: 30px 0;
+}
+.two-cards{
+  display: flex;
+}
+.d-card1{
+  margin-left: 6rem;
+  background-color: #cccea7;
+  width: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 30rem;
+}
+.d-card2{
+  background-color: #d6bebe;
+  width: 30rem;
+  margin: 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 30rem;
+}
+#diamond{
+  
+  padding: 5px;
+}
+.percent{
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+font-weight: 600;
+font-size: 50px;
+line-height: 112px;
+text-align: center; 
+}
+#discount{
+  padding: 5px;
+}
+.shop{
+  margin: 20px;
+  padding: 5px;
+  border: 1px solid white;
+  color: white;
+  background: transparent;
+}
+.rectangle{
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #f5f4f2;
+  height: 200px;
+  position: relative;
+}
+.subscribe{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #770015;
+  height: 200px;
+  margin: 20px 6rem;
+  font-size: 20px;
+}
+.deals{
+  text-align: center;
+}
+.input-field{
+  padding: 10px;
+  margin-top: 10px;
+  background: rgba(255, 255, 255, 0.32);
+  color: white;
+  outline: none;
+  border: none;
+}
+.input-field::-webkit-input-placeholder{
+  color: white;
+}
+.subscb{
+  padding: 10px;
+  margin-top: 10px;
+  background-color: white;
+  color: #770015;
+  font-weight: bold;
+  border: none;
+}
+.footer{
+  display: flex;
+  margin-top: 40px;
+}
+#paragraph{
+  margin-left: 6rem;
+  margin-bottom: 20px;
+  width: 300px;
+}
+.para img{
+  margin-left: 6rem;
+  height: 50px;
+  width: 300px;
+}
+.online h3{
+  color: #770015;
+
+}
+.customer h3{
+  color: #770015;
+}
+.store h3{
+  color: #770015;
+}
+.online ul,.customer ul,.store ul{
+  list-style-type: none;
+}
+.online{
+margin-left: 20px;
+width: 200px;
+}
+.online li{
+  padding: 3px;
+}
+.customer{
+  margin-left: 20px;
+  width: 250px;
+}
+.customer li{
+  padding: 3px;
+}
+.store{
+  margin-left: 20px;
+  width: 300px;
+}
+.info{
+  padding: 10px;
+}
+.imgs{
+  padding: 5px;
+}
+.tex{
+  margin-top: 1px;
+}
+.copywrite{
+  background-color: #20050a;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+@media only screen and (min-width: 375px ) and (max-width: 700px){
+          .banner{
+            width: 85rem;
+          }
+          .img{
+            margin-right: 10px;
+            width: 1400px;
+          }
+          .categories{
+            width: 87.5rem;
+          }
+          .categories-2{
+            margin-left: 4rem;
+          }
+          .horizontal{
+           margin-left: 700px;
+          }
+          .card-items{
+            margin-left: 720px;
+          }
+          .view{
+            margin-left: 650px;
+            width: 200px;
+          }
+          .collections{
+            margin-left: 60px;
+          }
+          .printed{
+            width: 300px;
+
+          }
+          .two-cards{
+            width: 2000px;
+          }
+          .d-card1{
+            margin-left: 150px;
+            width: 400px;
+          }
+          .d-card2{
+            margin-left: 200px;
+            width: 400px;
+          }
+          .rectangle{
+            width: 1350px;
+          }
+          .subscribe{
+            margin-left: 150px;
+            width: 1000px;
+          }
+          .hozt{
+            width: 1350px;
+          }
+          .footer{
+            margin-left: 50px;
+            width: 1200px;
+          }
+          .online{
+            width: 600px;
+          }
+          .customer{
+            width: 600px;
+          }
+          .store{
+            width: 700px;
+          }
+          .copywrite{
+            width: 1350px;
+          }
+          .view{
+            margin-left: 600px;
+            width: 200px;
+          }
+        }
+
+   
+  
+  @media only screen and (min-width: 1000px ) and (max-width: 1150px){
+    .banner{
+      width: 80rem;
+    }
+    .img{
+      margin-right: 50px;
+    }
+    .categories{
+      width: 1100px;
+      margin-left: 90px;
+    }
+    .horizontal{
+      width: 1100px;
+     }
+     .card-items{
+      margin-left: 200px;
+    }
+    .two-cards{
+      width: 1200px;
+    }
+    .d-card1{
+      margin-left: 150px;
+      width: 400px;
+    }
+    .d-card2{
+      margin-left: 200px;
+      width: 650px;
+    }
+  }
+  @media only screen and (min-width: 700px ) and (max-width: 1000px){
+
+    .banner{
+      width: 1280px;
+    }
+    .img{
+      margin-right: 60px;
+      width: 1300px;
+    }
+    .categories{
+      width: 1280px;
+    }
+    .horizontal{
+      width: 1200px;
+     }
+     .card-items{
+      margin-left: 580px;
+    }
+    .view{
+      margin-left: 590px;
+      width: 150px;
+    }
+    .collections{
+      margin-left: 10px;
+    }
+    .printed{
+      width: 300px;
+
+    }
+    .two-cards{
+      width: 1500px;
+    }
+    .d-card1{
+      margin-left: 100px;
+      width: 350px;
+    }
+    .d-card2{
+      margin-left: 200px;
+      width: 350px;
+    }
+    .rectangle{
+      width: 1190px;
+    }
+    .subscribe{
+      margin-left: 100px;
+      width: 1100px;
+    }
+    .hozt{
+      width: 1325px;
+    }
+    .footer{
+    
+      width: 1200px;
+    }
+    .copywrite{
+      width: 1200px;
+    }
+  
+  }
+  @media only screen and (min-width: 250px ) and (max-width: 375px){
+    .banner{
+      width: 1350px;
+    }
+    .categories{
+      width: 1280px;
+    }
+    .card-items{
+      margin-left: 650px;
+    }
+    .horizontal{
+      margin-left: 400px;
+     }
+     .view{
+      margin-left: 400px;
+      width: 200px;
+    }
+    .printed{
+      width: 300px;
+
+    }
+    .two-cards{
+      width: 1000px;
+    }
+    .d-card1{
+      margin-left: 100px;
+      width: 400px;
+    }
+    .d-card2{
+      margin-left: 200px;
+      width: 400px;
+    }
+    .rectangle{
+      width: 1200px;
+    }
+    .subscribe{
+      margin-left: 120px;
+      width: 1080px;
+    }
+    .hozt{
+      width: 1300px;
+    }
+    .footer{
+      margin-left: 30px;
+      width: 1200px;
+    }
+    .online{
+      width: 600px;
+    }
+    .customer{
+      width: 600px;
+    }
+    .store{
+      width: 700px;
+    }
+    .copywrite{
+      width: 1200px;
+    }
+
+  }
+  
+  @media only screen and (min-width: 100px ) and (max-width: 250px){
+    .banner{
+      width: 1350px;
+    }
+    .categories{
+      width: 1260px;
+    }
+    .horizontal{
+      margin-left: 700px;
+     }
+     .card-items{
+      margin-left: 660px;
+    }
+    .view{
+      margin-left: 650px;
+      width: 200px;
+    }
+    .printed{
+      width: 300px;
+
+    }
+    .two-cards{
+      width: 1000px;
+    }
+    .d-card1{
+      margin-left: 100px;
+      width: 600px;
+    }
+    .d-card2{
+      margin-left: 200px;
+      width: 600px;
+    }
+    .rectangle{
+      width: 1200px;
+    }
+    .subscribe{
+      margin-left: 110px;
+      width: 1100px;
+    }
+    .hozt{
+      width: 1200px;
+    }
+    .footer{
+      margin-left: 20px;
+      width: 1200px;
+    }
+    .copywrite{
+      width: 1200px;
+    }
+  } 
+
+  @media only screen and (min-width: 1700px ) and (max-width: 2000px){
+    .categories{
+    margin-right: 600px;
+    }
+    .card-items{
+      margin-right: 520px;
+    }
+    .horizontal{
+      width: 1150px;
+     }
+     .view{
+      margin-right: 1100px;
+      width: 200px;
+    }
+  }
+
+
+  @media only screen and (min-width: 2000px ) and (max-width: 2700px){
+    .categories-2{
+      margin-left: 500px;
+    }
+    .banner-1{
+      margin-left: 470px;
+    }
+    .collections{
+      margin-left: 500px;
+    }
+    .loose{
+      margin-left: 520px;
+    }
+    .two-cards{
+      width: 2000px;
+    }
+    .d-card1{
+      margin-left: 570px;
+      width: 400px;
+    }
+    .d-card2{
+      margin-left: 200px;
+      width: 400px;
+    }
+    .footer{
+      width: 5000px;
+      
+    }
+    .online{
+      width: 600px;
+    }
+    .customer{
+      width: 600px;
+    }
+    .store{
+      width: 700px;
+    }
+    
+  }
